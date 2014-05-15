@@ -10,7 +10,8 @@ Unity3D 2D TweenPosition with phyics
 Project contains a short demo of how to implement a TweenScript that uses the RigidBody2D physics to effect other game objects.
 This can be used for effectly similar to; a moving platform or object projectile
 
-Proect setup for moving platform
+
+#Proect setup for moving platform
 In order to use the script in your project complete the following steps;
 
 1. Add the script to your Unity3D project
