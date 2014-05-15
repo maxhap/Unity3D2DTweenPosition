@@ -5,6 +5,7 @@ public class TweenPosition2D : MonoBehaviour
 {
     public float MovementVelocity;
     public bool Loop = false;
+    public bool PlayOnStart = false;
     public Vector2[] TweenPositions;
 
     protected float _distanceTraveled;
@@ -27,7 +28,7 @@ public class TweenPosition2D : MonoBehaviour
             Reset();
         }
 
-        Play();
+        if ( PlayOnStart ) Play();
 	}
 	
 	public void Update () 
